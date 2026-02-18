@@ -9,7 +9,7 @@ flask-cors==4.0.0
 --find-links https://download.pytorch.org/whl/torch_stable.html
 torch==2.0.1+cpu
 transformers==4.30.0
-numpy==1.25.0
+numpy>=1.26.0
 
 # Production Server
 waitress==2.1.2
