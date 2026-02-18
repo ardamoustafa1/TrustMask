@@ -6,8 +6,8 @@ flask-cors==4.0.0
 
 # AI / NLP (Hugging Face)
 # Torch CPU only to save space
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==2.0.1+cpu
+--index-url https://download.pytorch.org/whl/cpu
+torch>=2.2.0
 transformers==4.30.0
 numpy>=1.26.0
 
